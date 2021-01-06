@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FUTSell</string>
+
+    <string name="unknown_error">Unknown error</string>
+    <string name="verify_email">Please verify your e-mail address with the link.\nOnce you have reset your password you
+        will be able to log back into the system
+    </string>
+    <string name="error_handling_common">Something wrong. Please check your network connection.</string>
+    <string name="error_handling_timeout">Your Internet connection is too slow. Please check your network</string>
+    <string name="error_no_connection">Please check your Internet connection</string>
+    <string name="error_io_exception">Something went wrong. Please try again later</string>
+    <string name="error_unhandled_error">Untreated error. Please contact the developers</string>
+
+    <string name="error_unhandled_server_error">Server interaction error. Please try again later</string>
+</resources>
