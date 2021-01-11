@@ -37,4 +37,15 @@ class MainActivity : AppCompatActivity() {
         })
 
     }
+
+    override fun onStart() {
+        super.onStart()
+        viewModel.onActivityStart()
+    }
+
+    override fun onStop() {
+        super.onStop()
+        viewModel.onActivityStop()
+    }
+
 }

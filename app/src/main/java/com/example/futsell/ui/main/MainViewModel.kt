@@ -89,7 +89,7 @@ class MainViewModel : ViewModel(), CoroutineScope {
 //player — информация об игроке, которого вы взяли.
 
     private suspend fun loadAvailablePlayer() {
-        val timestamp = System.currentTimeMillis().toString()
+        val timestamp = (System.currentTimeMillis()/1000).toString()
         val signString =
             preferencesStorage.getPartnerId() + preferencesStorage.getSecretKey() + timestamp
         val sign = md5(signString)

@@ -23,7 +23,7 @@ object NetworkManager {
     private fun getLogging(): HttpLoggingInterceptor =
         HttpLoggingInterceptor(HttpLoggingInterceptor.Logger {
             Log.d("FUTSELL:", it)
-        })
+        }).setLevel(HttpLoggingInterceptor.Level.BODY)
 
     private fun createRestApi(okHttpClient: OkHttpClient, url: String): NetworkApi {
         val gson = GsonBuilder()

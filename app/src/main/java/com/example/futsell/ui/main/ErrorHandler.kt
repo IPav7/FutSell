@@ -1,11 +1,11 @@
 package com.example.futsell.ui.main
 
 import android.text.TextUtils
-import com.linxio.mobile.R
-import com.linxio.mobile.utils.errorhandling.exception.NoInternetConnectionException
-import com.linxio.mobile.utils.errorhandling.exception.ServerConnectionException
-import com.linxio.mobile.utils.errorhandling.exception.UnknownInternalServerException
-import com.linxio.mobile.utils.errorhandling.exception.UnknownServerException
+import com.example.futsell.R
+import com.example.futsell.ui.main.exception.NoInternetConnectionException
+import com.example.futsell.ui.main.exception.ServerConnectionException
+import com.example.futsell.ui.main.exception.UnknownInternalServerException
+import com.example.futsell.ui.main.exception.UnknownServerException
 import java.io.IOException
 
 class ErrorHandler {
